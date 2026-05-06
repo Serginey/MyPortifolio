@@ -32,7 +32,7 @@ export default function Contact() {
             },
             {
               label: "LinkedIn",
-              value: "linkedin.com/in/yourusername",
+              value: "https://www.linkedin.com/in/iyamuremye-sergine/",
               href: "https://linkedin.com/",
             },
           ].map((item) => (
