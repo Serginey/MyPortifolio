@@ -30,12 +30,12 @@ const projects = [
   },
   {
     number: "04",
-    title: "AI_JOB_SCREENER",
+    title: "GrowthIndex Dashboard",
     description:
-      "An AI-powered tool designed to streamline the recruitment process by automatically screening job applications. It uses natural language processing to analyze resumes and cover letters, identifying key skills and qualifications to help recruiters quickly shortlist candidates.",
-    tags: ["JavaScript", "CSS", "APIs"],
-    github: "https://github.com/Serginey/ai_job_screener",
-    live: null,
+      "A presentation-ready analytics dashboard for exploring Green Growth Index performance across countries, continents, and sustainability dimensions. It transforms country-level data into interactive maps, comparison views, regional summaries, country profiles, searchable evidence tables, projections, and scenario simulations.",
+    tags: ["Data Analytics", "Dashboard", "Visualization"],
+    github: "https://github.com/Serginey/GrowthIndex_Dashboard.git",
+    live: "https://growthindex-dashboard-4.onrender.com/",
   },
 ];
 
