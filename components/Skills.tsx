@@ -10,6 +10,8 @@ const skillGroups = [
     items: [
       "React.js",
       "Next.js",
+      "Tailwind CSS",
+      "NestJS",
       "React Native",
       "Node.js",
       "SpringBoot",
@@ -21,8 +23,12 @@ const skillGroups = [
     items: ["PostgreSQL", "MongoDB", "MySQL", "Oracle SQL"],
   },
   {
-    category: "Cloud & DevOps",
-    items: ["Docker", "Kubernetes"],
+    category: "AI & Automation",
+    items: ["Gemini API", "LLM structured output", "PDF parsing with AI"],
+  },
+  {
+    category: "Quality & DevOps",
+    items: ["Jest", "Code review", "Docker", "Kubernetes", "pnpm / Turborepo"],
   },
   {
     category: "Data Analytics",
@@ -37,6 +43,7 @@ const skillGroups = [
 const humanLanguages = [
   { lang: "Kinyarwanda", level: "Native" },
   { lang: "English", level: "Fluent" },
+  { lang: "French", level: "Intermediate" },
 ];
 
 export default function Skills() {
@@ -97,19 +104,17 @@ export default function Skills() {
             UI/UX Design
           </p>
           <p className="text-white font-medium text-sm">
-            I also design. See my visual work on Behance.
+            I design what I build.
           </p>
           <p className="text-subtle text-xs mt-1">
-            Interfaces, product concepts, and visual explorations.
+            Figma files and design walkthroughs available on request.
           </p>
         </div>
         <a
-          href="https://behance.net/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/#projects"
           className="shrink-0 px-5 py-2 border border-accent text-accent text-sm hover:bg-accent hover:text-bg transition-all duration-200"
         >
-          View on Behance ↗
+          See case studies →
         </a>
       </div>
     </section>

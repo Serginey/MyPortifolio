@@ -13,7 +13,7 @@ export default function Contact() {
           </h2>
           <p className="text-subtle text-base leading-relaxed">
             I&apos;m always open to conversations about software, collaboration,
-            internships, and ideas that matter. Whether it&apos;s a role or just
+            roles, and ideas that matter. Whether it&apos;s a role or just
             a hello — reach out.
           </p>
         </div>
@@ -27,13 +27,13 @@ export default function Contact() {
             },
             {
               label: "GitHub",
-              value: "https://github.com/Serginey",
+              value: "github.com/Serginey",
               href: "https://github.com/Serginey",
             },
             {
               label: "LinkedIn",
-              value: "https://www.linkedin.com/in/iyamuremye-sergine/",
-              href: "https://linkedin.com/",
+              value: "linkedin.com/in/iyamuremye-sergine",
+              href: "https://www.linkedin.com/in/iyamuremye-sergine-77aa812b2/",
             },
           ].map((item) => (
             <a
@@ -61,11 +61,10 @@ export default function Contact() {
             </p>
             <div className="flex flex-wrap gap-2">
               {[
-                "Internships",
-                "Research",
-                "Collaborations",
-                "Nonprofit tech",
-                "Hackathons",
+                "Full-time roles",
+                "Remote (UTC+2)",
+                "Product teams",
+                "Design + engineering",
               ].map((tag) => (
                 <span
                   key={tag}

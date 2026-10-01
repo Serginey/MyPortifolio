@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="min-h-screen flex flex-col justify-center px-6 max-w-5xl mx-auto pt-20">
       <div className="max-w-2xl">
         <p className="text-accent text-sm font-medium tracking-widest uppercase mb-6">
-          Available for opportunities
+          Open to remote full-time roles
         </p>
         <h1 className="text-5xl md:text-7xl font-bold text-white leading-[1.05] tracking-tight mb-3">
           Iyamuremye
@@ -11,11 +11,13 @@ export default function Hero() {
           Sergine
         </h1>
         <p className="text-accent text-sm font-medium tracking-[0.2em] uppercase mb-6 italic">
-          Futurist
+          Full-Stack Developer · UI/UX Designer
         </p>
         <p className="text-subtle text-lg md:text-xl font-light leading-relaxed mb-10 max-w-lg">
-          Building at the intersection of software engineering, UI/UX design,
-          and impact — where code meets vision and vision becomes product.
+          I design and build complete products — from Figma to production —
+          with React, Next.js, Tailwind CSS and Node.js. Currently shipping a
+          national regulatory platform at Rwanda&apos;s National Health
+          Intelligence Center.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
@@ -35,10 +37,9 @@ export default function Hero() {
         {/* Socials */}
         <div className="flex items-center gap-6 mt-14">
           {[
-            { label: "GitHub", href: "https://github.com/" },
-            { label: "LinkedIn", href: "https://linkedin.com/" },
-            { label: "Behance", href: "https://behance.net/" },
-            { label: "Email", href: "mailto:hello@example.com" },
+            { label: "GitHub", href: "https://github.com/Serginey" },
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/iyamuremye-sergine-77aa812b2/" },
+            { label: "Email", href: "mailto:iyamuremyesergine241@gmail.com" },
           ].map((s) => (
             <a
               key={s.label}

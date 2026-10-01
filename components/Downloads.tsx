@@ -2,14 +2,8 @@ import SectionLabel from "./SectionLabel";
 
 const docs = [
   {
-    title: "Resume",
-    desc: "One-page summary of my skills, experience, and education.",
-    file: "/Iyamuremye_Sergine_resume.pdf",
-    label: "Download Resume",
-  },
-  {
     title: "Curriculum Vitae",
-    desc: "Full academic and professional record with projects and certifications.",
+    desc: "One page: skills, experience, projects and education.",
     file: "/Iyamuremye_Sergine_CV.pdf",
     label: "Download CV",
   },
@@ -29,7 +23,7 @@ export default function Downloads() {
         Resume & documents.
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-px bg-border">
+      <div className="grid md:grid-cols-2 gap-px bg-border">
         {docs.map((doc) => (
           <div
             key={doc.title}

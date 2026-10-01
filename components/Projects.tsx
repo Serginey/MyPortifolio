@@ -3,38 +3,62 @@ import SectionLabel from "./SectionLabel";
 const projects = [
   {
     number: "01",
-    title: "Nyumba",
+    title: "Pulse",
     description:
-      "Nyumba is a Rwanda-first digital property marketplace addressing critical gaps in the affordable housing segment, Unlike existing platforms that cater to premium properties, Nyumba enforces quality through paid listings, integrates local payment methods, and focuses on trust-building between renters, landlords, and agents",
-    tags: ["React", "TypeScript", "Node.js"],
-    github: "https://github.com/Cylacon-Rda/nyumba",
-    live: "https://www.kunyumba.site/",
+      "Emergency response system that locates patients by GPS, finds the nearest hospital with ER capacity, and dispatches an ambulance or community driver on an optimised route. I led the backend.",
+    tags: ["React", "Node.js", "PostgreSQL", "Google Maps API"],
+    caseStudy: "/work/pulse",
+    github: null,
+    live: null,
   },
   {
     number: "02",
-    title: "Medgate",
+    title: "MedGate",
     description:
-      "MedGate is a Rwanda-based digital platform that connects international and local patients to verified hospitals and medical services in Rwanda.",
-    tags: ["React", "Typescript", "PostgreSQL"],
-    github: "https://github.com/Cylacon-Rda/MedGate",
+      "Platform connecting local and international patients to verified hospitals in Rwanda — request matching, appointment scheduling and hospital profiles. Built at Cylacon.",
+    tags: ["React", "TypeScript", "PostgreSQL"],
+    caseStudy: "/work/medgate",
+    github: null,
     live: "https://www.medgate.rw/",
   },
   {
     number: "03",
-    title: "Delish",
+    title: "AI Job Screener",
     description:
-      "Worked on the delish online food ordering platform, contributing to both frontend and backend development. Implemented features such as user authentication, restaurant listings, menu management, and order processing using Next.js, Tailwind CSS, and Supabase.",
-    tags: ["Next.js", "Tailwind", "Supabase"],
-    github: "https://github.com/Serginey/Delish_online",
+      "Upload PDF résumés and get an AI-ranked shortlist with scores, strengths and gaps for every candidate. Gemini extracts structured data from each résumé and ranks candidates against a weighted rubric.",
+    tags: ["Next.js", "Tailwind", "MongoDB", "Gemini API"],
+    caseStudy: "/work/ai-job-screener",
+    github: "https://github.com/Serginey/ai_job_screener",
     live: null,
   },
   {
     number: "04",
+    title: "Nyumba",
+    description:
+      "Rwanda-first property marketplace for affordable housing: verified listings, search and filters, mobile-money payments and a mobile-first UI. Built at Cylacon.",
+    tags: ["React", "TypeScript", "Node.js"],
+    caseStudy: null,
+    github: null,
+    live: "https://www.kunyumba.site/",
+  },
+  {
+    number: "05",
+    title: "Delish",
+    description:
+      "Worked on the delish online food ordering platform, contributing to both frontend and backend development. Implemented features such as user authentication, restaurant listings, menu management, and order processing using Next.js, Tailwind CSS, and Supabase.",
+    tags: ["Next.js", "Tailwind", "Supabase"],
+    caseStudy: null,
+    github: "https://github.com/Serginey/Delish_online",
+    live: null,
+  },
+  {
+    number: "06",
     title: "GrowthIndex Dashboard",
     description:
       "A presentation-ready analytics dashboard for exploring Green Growth Index performance across countries, continents, and sustainability dimensions. It transforms country-level data into interactive maps, comparison views, regional summaries, country profiles, searchable evidence tables, projections, and scenario simulations.",
     tags: ["Data Analytics", "Dashboard", "Visualization"],
-    github: "https://github.com/Serginey/GrowthIndex_Dashboard.git",
+    caseStudy: null,
+    github: "https://github.com/Serginey/GrowthIndex",
     live: "https://growthindex-dashboard-4.onrender.com/",
   },
 ];
@@ -50,7 +74,7 @@ export default function Projects() {
           </h2>
         </div>
         <a
-          href="https://github.com/"
+          href="https://github.com/Serginey"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-accent hover:text-accent/70 transition-colors hidden md:block"
@@ -68,6 +92,14 @@ export default function Projects() {
             <div className="flex items-start justify-between mb-6">
               <span className="text-border text-4xl font-bold">{p.number}</span>
               <div className="flex items-center gap-3">
+                {p.caseStudy && (
+                  <a
+                    href={p.caseStudy}
+                    className="text-accent hover:text-accent/70 transition-colors text-sm"
+                  >
+                    Case study →
+                  </a>
+                )}
                 {p.live && (
                   <a
                     href={p.live}
@@ -78,14 +110,16 @@ export default function Projects() {
                     Live ↗
                   </a>
                 )}
-                <a
-                  href={p.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted hover:text-accent transition-colors text-sm"
-                >
-                  GitHub ↗
-                </a>
+                {p.github && (
+                  <a
+                    href={p.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted hover:text-accent transition-colors text-sm"
+                  >
+                    GitHub ↗
+                  </a>
+                )}
               </div>
             </div>
 

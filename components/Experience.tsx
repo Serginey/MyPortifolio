@@ -2,15 +2,26 @@ import SectionLabel from "./SectionLabel";
 
 const experiences = [
   {
-    role: "Software Engineering Intern",
+    role: "Software Engineer, Full-Stack",
+    company: "National Health Intelligence Center",
+    period: "Aug 2026 – Present",
+    type: "Full-time",
+    bullets: [
+      "Build frontend and backend features for the Rwanda FDA Inspection Platform (RFIP), a national system digitising regulatory inspection workflows.",
+      "Ship UI with React, TypeScript and Tailwind CSS, and APIs with NestJS and PostgreSQL, in a Dockerised monorepo.",
+      "Deliver role-based dashboard features that give each user a personal, actionable view of their work.",
+      "Write Jest tests and take part in code reviews through a merge-request workflow.",
+    ],
+  },
+  {
+    role: "Software Engineering Intern, UI/UX & Frontend",
     company: "Cylacon",
-    
     period: "2026",
     type: "Internship",
     bullets: [
-      "Contributed to engineering projects across front-end and back-end systems.",
-      "Participated in product delivery workflows and internal tooling improvements.",
-      "Collaborated with the engineering team on feature development and testing.",
+      "Designed and built client-facing interfaces for MedGate and Nyumba, from Figma mockup to deployment.",
+      "Built responsive React and TypeScript components that work across devices.",
+      "Ran usability reviews of existing products and delivered usability and accessibility improvements.",
     ],
   },
   {
@@ -25,25 +36,14 @@ const experiences = [
     ],
   },
   {
-    role: "Personal Projects",
-    company: "Self-directed",
-    period: "Ongoing",
-    type: "Independent",
-    bullets: [
-      "Designed and built full-stack web applications and developer tools.",
-      "Explored data pipelines, APIs, and product design independently.",
-      "Shipped real tools used by people outside of a classroom context.",
-    ],
-  },
-  {
     role: "Hackathon Participant",
     company: "Multiple Events",
     period: "Ongoing",
     type: "Independent",
     bullets: [
       "Competed in multiple hackathons, shipping functional product prototypes under time pressure. Strong emphasis on real-world relevance, product thinking, and clean execution.",
-      "Pitched technical products to judges and stakeholder audiences",
-      "Led cross-functional teams under 24–48 hour build timelines",
+      "Led backend development for Pulse, an emergency response system built under hackathon time pressure.",
+      "Pitched technical products to judges and stakeholder audiences.",
     ],
   },
 ];

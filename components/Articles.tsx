@@ -7,7 +7,7 @@ const articles = [
     publication: "The New Times",
     date: "October 2024",
     summary:
-      "Won 1st place in the inaugural Cyberlympics Rwanda — a national cybersecurity competition held at the Africa Cyber Defence Forum, covering offensive cyber warfare, digital forensics, and cyber defence.",
+      "Placed 3rd in the inaugural Cyberlympics Rwanda — a national cybersecurity competition held at the Africa Cyber Defence Forum, covering offensive cyber warfare, digital forensics, and cyber defence.",
     href: "https://www.newtimes.co.rw/article/21006/news/technology/featured-rwandan-students-emerge-winners-of-national-cyberlympics-at-africa-cyber-defense-forum",
   },
  {
@@ -18,7 +18,7 @@ const articles = [
     "Presented an AI-powered satellite project at RSA's 3rd Space Week — using real-time satellite data and AI to monitor security and help humanitarian organisations predict crises like flooding.",
   href: "https://en.igihe.com/science-technology/article/rsa-engages-high-school-students-in-space-tech-and-science-during-space-week",
 }
- 
+
 ];
 
 export default function Articles() {

@@ -22,7 +22,7 @@ const traits = [
 ];
 
 const tabs = {
-  Background: `I'm Iyamuremye Sergine — a student, builder, and aspiring engineer from Rwanda.
+  Background: `I'm Iyamuremye Sergine — a full-stack developer and UI/UX designer from Rwanda.
 My path has been shaped by a genuine curiosity: not just what the tools do, but why they work, and how they can become more useful.
 
 
@@ -33,15 +33,15 @@ and shipped tools that real people use. I learn by building, and I build toward 
   real world in high-stakes ways —  healthcare data tools,
   nonprofit infrastructure,  and developer tooling that helps other builders move faster.
 
-I'm also interested in the craft of software itself: clean architecture, thoughtful 
+I'm also interested in the craft of software itself: clean architecture, thoughtful
 product design, and the kind of engineering
 that makes systems feel inevitable once you encounter them..`,
 
-  "Beyond Tech": `Outside of code and research, I serve as a PLP Coordinator at RCA — 
-  a role that has taught me more about leadership, empathy, and navigating hard conversations than any class ever could. 
+  "Beyond Tech": `Outside of code and research, I serve as a PLP Coordinator at RCA —
+  a role that has taught me more about leadership, empathy, and navigating hard conversations than any class ever could.
   Supporting a community of students is its own kind of systems work.
 
-I care deeply about mentorship, academic access, and building environments where people feel 
+I care deeply about mentorship, academic access, and building environments where people feel
 supported to take risks,ask hard questions, and grow into their potential.`,
 };
 
@@ -75,9 +75,9 @@ export default function About() {
 
           <div className="grid grid-cols-2 gap-3 pt-4">
             {[
-              { label: "Location", value: "Rwanda" },
+              { label: "Location", value: "Kigali · UTC+2" },
               { label: "Focus", value: "Eng. + Design" },
-              { label: "Education", value: "RCA · FAWE Girls" },
+              { label: "Currently", value: "Engineer @ NHIC" },
               { label: "Status", value: "Open to opportunities" },
             ].map((item) => (
               <div

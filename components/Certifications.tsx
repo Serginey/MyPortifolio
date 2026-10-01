@@ -35,16 +35,7 @@ export default function Certifications() {
             <p className="text-accent text-xs uppercase tracking-widest mb-3">{c.year}</p>
             <h3 className="text-white font-medium text-base mb-1">{c.title}</h3>
             <p className="text-muted text-sm mb-4">{c.issuer}</p>
-            {c.desc !== "#" && (
-              <a
-                href={c.desc}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-subtle hover:text-accent transition-colors"
-              >
-                View credential ↗
-              </a>
-            )}
+            <p className="text-xs text-subtle leading-relaxed">{c.desc}</p>
           </div>
         ))}
       </div>

@@ -2,12 +2,12 @@
 import { useState, useEffect } from "react";
 
 const links = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Skills", href: "/#skills" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Education", href: "/#education" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Nav() {
@@ -27,7 +27,7 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="text-white font-medium tracking-tight text-sm">
+        <a href="/" className="text-white font-medium tracking-tight text-sm">
           Sergine<span className="text-accent">.</span>
         </a>
 
@@ -44,7 +44,7 @@ export default function Nav() {
           ))}
           <li>
             <a
-              href="/resume.pdf"
+              href="/Iyamuremye_Sergine_CV.pdf"
               download
               className="text-sm px-4 py-1.5 border border-border text-foreground hover:border-accent hover:text-accent transition-all duration-200"
             >
@@ -80,7 +80,7 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a href="/resume.pdf" download className="block py-2 text-sm text-accent">
+          <a href="/Iyamuremye_Sergine_CV.pdf" download className="block py-2 text-sm text-accent">
             Resume ↓
           </a>
         </div>
